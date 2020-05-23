@@ -1,9 +1,9 @@
 import React from 'react';
 import User from '../../components/User';
 
-const Index = () => (
+const Index = (props) => (
   <div>
-    <User name="Gaëtan" age={28} />
+    <User name={props.name} age={28} />
     <style jsx>
       {`
         div {
@@ -16,5 +16,9 @@ const Index = () => (
     </style>
   </div>
 );
+
+Index.getInitialProps = async () => {
+  return { name: 'Gaëtan' };
+};
 
 export default Index;
