@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/gaetanBloch/react-nextjs/issues"
   },
-  "homepage": "https://github.com/gaetanBloch/react-nextjs#readme"
+  "homepage": "https://github.com/gaetanBloch/react-nextjs#readme",
+  "dependencies": {
+    "next": "^9.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
